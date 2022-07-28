@@ -11,6 +11,8 @@ body{
     justify-content: center;
     background: url(./aryan-dhiman-iGLLtLINSkw-unsplash.jpg);
     background-size: cover;
+    transition: filter 0.7s;
+
 }
 
 h1{
@@ -54,6 +56,8 @@ h1{
     background-size: cover;
     border-radius: 10Px;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 
 h4{
@@ -100,4 +104,6 @@ label{
 
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
