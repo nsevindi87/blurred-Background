@@ -5,7 +5,7 @@ const closeIconEl = document.querySelector(".close-icon");
 
 btnEl.addEventListener("click", ()=>{
     containerEl.classList.add("active");
-    popupContainerEl.classList.remove("active")
+    popupContainerEl.classList.remove("active");
 })
 
 
